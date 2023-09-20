@@ -1,0 +1,99 @@
+body {
+  font-family: sans-serif;
+  background-color: #eefefe;
+  overflow-x: hidden;
+}
+h1{
+  text-align: center;
+  
+}
+p{
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+.dream img{
+  width:300px;
+  margin-left:280px;
+}
+
+#htex{
+  font-size: 30px;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 12px;
+}
+.content_text{
+  text-align: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: bold;
+}
+.grid-container-1{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-item {
+  display: flex;
+  align-items: center;
+}
+.grid-item-image-1{
+  grid-column: 1;
+}
+
+.grid-item-text-1{
+  grid-column: 2;
+  margin-left: -3px;
+  font-size: 50px;
+  
+}
+.grid-item-image-1 img {
+  width: 100%;
+  height: 100%;
+}
+.grid-item-image{
+  grid-column: 1;
+}
+
+.grid-item-text {
+  grid-column: 2;
+  margin-left: -3px;
+}
+.grid-item-image img {
+  width: 100%;
+  height: 100%;
+}
+.grid-item-text ul{
+    list-style-type:square;
+    font-size: 30px;;
+
+}
+
+.grid-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.grid-item img {
+  width: 60px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.grid-item h3 {
+  font-weight: medium;
+}
+
+.grid-item p {
+  font-size: 12px;
+  text-transform: uppercase;
+}
