@@ -208,3 +208,61 @@ nav .logo {
  .row{
      color:blue;
  }
+ /*Add some responsiveness*/    
+
+
+@media (max-width: 576px) {
+  /* Styles for small devices, such as smartphones */
+  .header ul {
+    flex-direction: column;
+    align-items: center;
+  }
+  .header li {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .search {
+    width: 100%;
+    margin-left: 0;
+  }
+  .search-bar {
+    margin-left: 0;
+  }
+  .card {
+    flex-direction: column;
+  }
+  .Beauty, .fashion {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  /* Styles for medium devices, such as tablets */
+  .header ul {
+    flex-direction: row;
+  }
+  .header li {
+    width: auto;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  /* Styles for large devices, such as laptops */
+  .header ul {
+    flex-direction: row;
+  }
+  .header li {
+    width: auto;
+  }
+}
+
+@media (min-width: 992px) {
+  /* Styles for extra large devices, such as desktop computers */
+  .header ul {
+    flex-direction: row;
+  }
+  .header li {
+    width: auto;
+  }
+}
